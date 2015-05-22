@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.myassignment.Foodchoice"
+    android:background="#000000"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Type of Food"
+        android:textSize="50dp"
+        android:id="@+id/Type"
+        android:textColor="#ffffff"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/arabicFood"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="  Arabic Food  "
+        android:textSize="30dp"
+        android:textAllCaps="false"
+        android:onClick="onclick"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/africanFood"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/arabicFood"
+        android:layout_marginTop="40dp"
+        android:text=" African Food "
+        android:textSize="30dp"
+        android:textAllCaps="false"
+        android:onClick="onclick"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/asianFood"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/africanFood"
+        android:layout_marginTop="40dp"
+        android:text="  Asian Food  "
+        android:textSize="30dp"
+        android:textAllCaps="false"
+        android:onClick="onclick"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/westernFood"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/asianFood"
+        android:layout_marginTop="40dp"
+        android:text="Western Food"
+        android:textSize="30dp"
+        android:textAllCaps="false"
+        android:onClick="onclick"
+        />
+
+</RelativeLayout>
