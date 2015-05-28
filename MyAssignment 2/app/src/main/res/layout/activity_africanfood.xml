@@ -4,7 +4,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.example.user.myassignment.Asianfood"
+    tools:context="com.example.user.myassignment.Africanfood"
     android:background="#000000">
     <ScrollView
         android:layout_width="wrap_content"
@@ -13,7 +13,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             >
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -48,7 +47,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Wonton soup"
+        android:text="Afang soup"
         android:textSize="20dp"
         android:textColor="#ffffff"
         android:layout_below="@id/meal"
@@ -60,7 +59,7 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/price"
         android:textColor="#ffffff"
-        android:text="1.99RM"
+        android:text="30RM"
         android:textSize="20dp"
         android:layout_marginTop="20dp"
         android:id="@+id/rm17"
@@ -68,7 +67,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sayur Lemak"
+        android:text="Jollof rice"
         android:textSize="20dp"
         android:textColor="#ffffff"
         android:layout_below="@id/gch"
@@ -81,14 +80,14 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/rm17"
         android:textColor="#ffffff"
-        android:text="8.95RM"
+        android:text="15RM"
         android:textSize="20dp"
         android:layout_marginTop="20dp"
         android:id="@+id/rm16"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Laksa Lemak"
+        android:text="Egusi soup"
         android:textSize="20dp"
         android:textColor="#ffffff"
         android:layout_below="@id/sht"
@@ -101,14 +100,14 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/rm16"
         android:textColor="#ffffff"
-        android:text="7.50RM"
+        android:text="30RM"
         android:textSize="20dp"
         android:layout_marginTop="20dp"
         android:id="@+id/rm19"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Asam Laksa Penang"
+        android:text="White soup"
         android:textSize="20dp"
         android:textColor="#ffffff"
         android:layout_below="@id/msh"
@@ -121,14 +120,14 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/rm19"
         android:textColor="#ffffff"
-        android:text="8.95RM"
+        android:text="35RM"
         android:textSize="20dp"
         android:layout_marginTop="20dp"
         android:id="@+id/rm12"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Seafood Noodle"
+        android:text="Fried rice"
         android:textSize="20dp"
         android:textColor="#ffffff"
         android:layout_below="@id/sha"
@@ -141,14 +140,14 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/rm12"
         android:textColor="#ffffff"
-        android:text="8.95RM"
+        android:text="15RM"
         android:textSize="20dp"
         android:layout_marginTop="20dp"
         android:id="@+id/rm22"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sambal Green Beans"
+        android:text="Okro soup"
         android:textSize="20dp"
         android:textColor="#ffffff"
         android:layout_below="@id/lam"
@@ -161,7 +160,7 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/rm22"
         android:textColor="#ffffff"
-        android:text="9.95RM"
+        android:text="30RM"
         android:textSize="20dp"
         android:layout_marginTop="20dp"
         android:id="@+id/rm20"/>
@@ -225,7 +224,6 @@
         android:textSize="20dp"
         android:layout_marginTop="20dp"
         android:id="@+id/rm5"/>
-</RelativeLayout>
+        </RelativeLayout>
     </ScrollView>
-
 </RelativeLayout>
